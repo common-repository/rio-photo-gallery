@@ -1,0 +1,322 @@
+body {
+  font-family: "Lato",sans-serif !important;
+}
+#customers {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #b10069;
+    color: white;
+}
+.clearfix {
+  clear: both;
+  padding: 0 10px;
+}
+.uploadButton {
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  background: #ededed;
+  color: #444;
+  font-size: 15px;
+  padding: 2px 18px 2px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hide-button {
+float: right;
+  margin-top: -13px;
+  font-size: 11px;
+  font-family: helvetica;
+  font-size: initial;
+  color: tray;
+  display: block;
+  color: black;
+}
+.imagelist:hover .hide-button {
+  display: block;
+  color:red;
+}
+.imagelists:hover .hide-button {
+  display: block;
+}
+#resultdiv {
+    margin-top: 30px;
+}
+#resultdiv .imagelist {
+    border: 1px solid #eee;
+    height: 95px;
+    margin: 0 2px;
+    padding: 10px;
+    text-align: center;
+}
+#resultdiv img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* style for manage options */
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 20%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+.image-div h5 {
+  font-size: 16px;
+}
+.image-div {
+  position: relative;
+}
+table.dataTable.no-footer {
+  border: 1px solid #e5e5e5 !important; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+table.dataTable thead th, table.dataTable thead td {
+  border-bottom: 1px solid #e5e5e5 !important;
+  padding:8px 10px !important;
+}
+.updates-table td input, .widefat tfoot td input, .widefat th input, .widefat thead td input {
+  margin: 0 !important;
+  padding: 0;
+  vertical-align: text-top;
+}
+h2.wp-heading-inline.mntitle1 {
+    float: left;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 0px 0px 15px;
+    padding: 3px 0 4px;
+}
+.blue-button {
+  background: #1ba5d7 none repeat scroll 0 0;
+  border-color: #1ba5d7;
+}
+.blue-button:hover {
+  background: #108ebc none repeat scroll 0 0;
+  border-color: #1ba5d7;
+}
+.form-inline.addnew-post {
+  float: left;
+  margin-left: 10px;
+  padding:6px 10px;
+}
+.addnew-post .form-control, .addnew-post .btn-primary {
+  height: 30px;
+  padding: 3px 10px;
+}
+.addnew-post label {
+  font-weight: 500;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 3px 6px !important;
+  text-align: center;
+  text-decoration: none !important;
+}
+.form-group > label {
+  font-weight: 400;
+}
+#wpcontent, #wpfooter {
+  background: #f1f1f1 none repeat scroll 0 0;
+  margin-left: 160px;
+}
+.m-md-top{margin-top: 12px;}
+.form-control {
+  height: 29px !important;
+}
+.padding-0{padding: 0px;}
+.al-right .fallback {
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 7px 10px 3px;
+  text-align: center;
+}
+.al-right {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  clear: both;
+  margin-bottom: 20px;
+}
+.al-right::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.al-right .fallback > label {
+  color: #0073aa;
+  text-decoration: underline;
+}
+.al-right #resultdiv {
+  margin: 0;
+}
+#resultdiv .imagelist {
+  border: 1px solid #eee;
+  height: 95px;
+  margin: 11px 0;
+  padding: 10px;
+  text-align: center;
+}
+.m-md-btm{margin-bottom: 20px;}
+.closeimage {
+  color: #f00;
+}
+.btns-add {
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 17px 0 10px;
+}
+.btn-sm.btn.btn-delete.btn-danger {
+  float: right;
+}
+.page-title-action {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #0073aa;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 4px;
+  outline: 0 none;
+  padding: 4px 8px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: none;
+  top: -3px;
+}
+.page-title-action:hover{background: #00A0D2; color: #fff; text-decoration: none;}
+.m-sm-btm{margin-bottom: 7px;}
+body {
+  font-family: "Lato",sans-serif !important;
+}
+label {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+th {
+  text-align: left;
+}
+.vertop {
+  width: 100%;
+}
+.vertop.form-table th, .vertop.form-table td {
+  padding: 0;
+}
+.vertop.form-table th {
+  font-weight:400;
+  line-height: 1.3;
+  padding: 0 10px 20px 0;
+  text-align: left;
+  vertical-align: top;
+  width: 290px;
+}
+.vertop.form-table input {
+  margin-bottom: 15px;
+  width: 70px;
+}
+fieldset .thumbnail_size_w {
+  display: inline-block;
+  min-width: 75px;
+  padding-right: 30px !important; font-weight:400;
+}
+.bxTitle {
+  font-size: 17px;
+}
+.panel-heading strong {
+  font-size: 15px;
+}
+.btn-sm.btn.btn-top {
+  position: absolute;
+  right: 15px;
+  top: -26px;
+}
+.album_main {
+  margin-top: 5px;
+  padding: 5px 0;
+}
+.m-md-btm {
+  margin-bottom: 20px !important;
+}
+#wpwrap {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: #f1f1f1;
+}
+#wpbody-content {
+    padding-top: 12px;
+}
+#Modaldelete button.close {
+    padding: 1px 5px;
+    position: relative;
+    z-index: 1;
+}
+h3.wp-heading-inline.mntitle1.pull-left {
+    margin: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.vertop.form-table input[type=checkbox] {
+    width: 18px;
+    margin: 0px 0;
+}
+/* */
